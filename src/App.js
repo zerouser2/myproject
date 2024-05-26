@@ -1,6 +1,5 @@
 import { Route, Routes, createBrowserRouter, createRoutesFromElements, defer } from "react-router-dom";
 import Header from "./components/header/Header.jsx";
-import './index.css'
 import Posts, { blogLoader, getPosts } from "./components/header/Posts.jsx";
 import Login from "./components/header/Login.jsx";
 import Register from "./components/header/Register.jsx";
@@ -14,7 +13,7 @@ import SinglePage, { postLoader } from "./components/header/SinglePage.jsx";
 import ErrorPage from "./components/header/ErrorPage.jsx";
 
 const router = createBrowserRouter(createRoutesFromElements(
-    <Route path='/' element={<Header />} errorElement={<ErrorPage />}>
+    <Route path='/' element={<Header />}  >
       <Route path='posts' element={<Posts />} loader={blogLoader} />
       <Route path='posts/:id' element={<SinglePage />} loader={postLoader}/>
       <Route path='login' element={
@@ -29,7 +28,7 @@ const router = createBrowserRouter(createRoutesFromElements(
         </RequirePath>
        } loader={pathLoader}/>
       <Route path="params" element={<SearchParams />}>
-        <Route path="team" element={<p>XAAXAXAXXAX</p>} />
+        <Route path="team" element={<p>dsada</p>} />
         <Route path="contact" element={<p>Our Contacts</p>} />
       </Route>
     </Route>
