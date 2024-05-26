@@ -1,0 +1,55 @@
+.container {
+    padding-left: 55px;
+}
+
+.create_post {
+    width: 35%;
+    border: 2px solid #12673f;
+    padding-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+}
+
+.loginForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid #a3e87c;
+    height: 200px;
+}
+
+form input {
+    padding: 3px 15px;
+}
+
+form button {
+    padding: 3px 15px;
+}
+
+.register {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+}
+
+.registerForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid #a3e87c;
+    height: 200px;
+}

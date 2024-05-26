@@ -1,0 +1,12 @@
+.shapka {
+    background-color: #ecb95d;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.shapka a {
+    text-decoration: none;
+    color: crimson;
+}
