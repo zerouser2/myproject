@@ -29,7 +29,7 @@ const router = createBrowserRouter(createRoutesFromElements(
         </RequirePath>
        } loader={pathLoader}/>
       <Route path="params" element={<SearchParams />}>
-        <Route path="team" element={<p>Our Team</p>} />
+        <Route path="team" element={<p>XAAXAXAXXAX</p>} />
         <Route path="contact" element={<p>Our Contacts</p>} />
       </Route>
     </Route>
