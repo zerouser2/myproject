@@ -18,11 +18,12 @@ function Header() {
     return (
         <>
             <header className={header.shapka}>
-                <Link to="/">Главная</Link>
+                {/* <Link to="/">Главная</Link>
                 <Link to='/posts'>Посты</Link>
                 <Link to='/login'>Войти</Link>
                 <Link to='/register'>Зарегистрироваться</Link>
-                <Link to='/params'>ПАРАМЕТРЫ</Link>
+                <Link to='/params'>ПАРАМЕТРЫ</Link> */}
+                <Link to='/pismoxd'>Письмо Деду Морозу</Link>
             </header>
             {showTitle && (
                 <div>
