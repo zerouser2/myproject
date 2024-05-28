@@ -41,7 +41,7 @@ function App() {
   return (
     <div className="App">
         {/* <RouterProvider router={router}/> */}
-        <Router basename="/myproject">
+        <Router>
           <Routes>
             <Route path='/' element={<Header />}  >
                 <Route path='posts' element={<Posts />} loader={blogLoader} />
