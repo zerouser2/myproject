@@ -258,7 +258,7 @@ function Inputs() {
 
     if (lastInputEntered) {
         return (
-            <div style={{maxWidth: '540px',justifyContent: 'center', paddingLeft: '200px'}}>
+            <div style={{maxWidth: '540px',justifyContent: 'center'}}>
                 <h3 style={{color: 'red'}}>Шуточное письмо деду морозу</h3>
 
                 <h1>Здравствуй Дедушка Мороз! Меня зовут {form.name}</h1>
