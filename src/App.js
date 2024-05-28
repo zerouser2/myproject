@@ -12,6 +12,8 @@ import { RouterProvider } from "react-router-dom";
 import SinglePage, { postLoader } from "./components/header/SinglePage.jsx";
 import ErrorPage from "./components/header/ErrorPage.jsx";
 
+const basename = '/myproject';
+
 const router = createBrowserRouter(createRoutesFromElements(
     <Route path='/' element={<Header />} errorElement={<ErrorPage />}>
       <Route path='posts' element={<Posts />} loader={blogLoader} />
@@ -32,7 +34,9 @@ const router = createBrowserRouter(createRoutesFromElements(
         <Route path="contact" element={<p>Our Contacts</p>} />
       </Route>
     </Route>
-))
+),
+  {basename: basename}
+)
 
 function App() {
   return (
