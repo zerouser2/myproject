@@ -13,12 +13,14 @@ import SinglePage, { postLoader } from "./components/header/SinglePage.jsx";
 import ErrorPage from "./components/header/ErrorPage.jsx";
 import PismoMorozy from "./components/header/PismoMorozy.jsx";
 import Inputs from "./components/header/Inputs.jsx";
+import Todolist from "./components/header/Todolist.jsx";
 
 const basename = '/myproject';
 
 const router = createBrowserRouter(createRoutesFromElements(
     <Route path='/' element={<Header />} errorElement={<ErrorPage />}>
       <Route path='posts' element={<Posts />} loader={blogLoader} />
+      <Route path="/todolist" element={<Todolist />} />
       <Route path="pismoxd" element={
         <PismoMorozy>
           <Inputs />

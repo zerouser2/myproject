@@ -24,6 +24,7 @@ function Header() {
                 <Link to='/register'>Зарегистрироваться</Link>
                 <Link to='/params'>ПАРАМЕТРЫ</Link> */}
                 <Link to='/pismoxd'>Письмо Деду Морозу</Link>
+                <Link to='/todolist'>Ту-ду лист</Link>
             </header>
             {showTitle && (
                 <div>

@@ -222,9 +222,7 @@ function Inputs() {
         },
     ];
 
-    const input = {
-        display: 'block'
-    };
+
 
     function handleChange(e) {
         setForm({
@@ -282,8 +280,8 @@ function Inputs() {
         );
     } 
     return (
-        <div style={input}>
-            <div style={input}>
+        <div>
+            <div>
                 <form onSubmit={handleSubmitForm}>
                     {outputDatas()}
                     <button type="submit">OK</button>
