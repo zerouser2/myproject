@@ -25,6 +25,7 @@ function Header() {
                 <Link to='/params'>ПАРАМЕТРЫ</Link> */}
                 <Link to='/pismoxd'>Письмо Деду Морозу</Link>
                 <Link to='/todolist'>Ту-ду лист</Link>
+                <Link to='/weather'>Прогноз погоды</Link>
             </header>
             {showTitle && (
                 <div>
