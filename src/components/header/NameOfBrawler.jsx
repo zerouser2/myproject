@@ -90,7 +90,7 @@ function NameOfBrawler() {
                     
 
                     <h3>Номер карты:</h3>
-                    <input placeholder='4400 0000 1488 0000' value={datas.numberCard} name='numberCard' onChange={onChangeInput}/>
+                    <input placeholder='4400000014880000' value={datas.numberCard} name='numberCard' onChange={onChangeInput}/>
                     <h3>Срок действия:</h3>
                     <input placeholder='01/01' value={datas.srok} name='srok' onChange={onChangeInput}/>
                     <h3>Имя держателя карты:</h3>
