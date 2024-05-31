@@ -98,17 +98,20 @@ function Weather() {
         setInputValue(e.target.value)
     }
 
-    function onClickButton() {
+    function onSubmit(e) {
+        e.preventDefault()
         setCityName(inputValue)
 
-            ref.current.classList.add('move')        
+        ref.current.classList.add('move')        
     }
     return (
         <div className="weather" ref={ref}> 
             <h1>Погода</h1>
-
-            <input type="text" placeholder="Название города" value={inputValue} onChange={onChangeInput}/>    
-            <button onClick={onClickButton}>OK</button>
+            <form onSubmit={onSubmit}>
+                <input type="text" placeholder="Название города" value={inputValue} onChange={onChangeInput}/>    
+                <button type="submit">OK</button>
+            </form>
+            
 
             {showWeather() }
 

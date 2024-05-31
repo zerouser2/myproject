@@ -15,6 +15,8 @@ import PismoMorozy from "./components/header/PismoMorozy.jsx";
 import Inputs from "./components/header/Inputs.jsx";
 import Todolist from "./components/header/Todolist.jsx";
 import Weather from "./components/header/Weather.jsx";
+import Store from "./components/header/Store.jsx";
+import NameOfBrawler from "./components/header/NameOfBrawler.jsx";
 
 const basename = '/myproject';
 
@@ -23,6 +25,9 @@ const router = createBrowserRouter(createRoutesFromElements(
       <Route path='posts' element={<Posts />} loader={blogLoader} />
       <Route path="/todolist" element={<Todolist />} />
       <Route path="/weather" element={<Weather />} />
+      <Route path="/store" element={<Store />} />
+      <Route path="/neskam" element={<NameOfBrawler />} />
+
       <Route path="pismoxd" element={
         <PismoMorozy>
           <Inputs />

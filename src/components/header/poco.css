@@ -1,0 +1,16 @@
+.poco {
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.infoCard {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    flex-wrap: wrap;
+}
+
+.infoCard input {
+    margin-left: 25px;
+}

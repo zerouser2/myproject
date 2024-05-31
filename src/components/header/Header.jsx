@@ -23,9 +23,15 @@ function Header() {
                 <Link to='/login'>Войти</Link>
                 <Link to='/register'>Зарегистрироваться</Link>
                 <Link to='/params'>ПАРАМЕТРЫ</Link> */}
-                <Link to='/pismoxd'>Письмо Деду Морозу</Link>
+
+
+                {/* <Link to='/pismoxd'>Письмо Деду Морозу</Link>
                 <Link to='/todolist'>Ту-ду лист</Link>
                 <Link to='/weather'>Прогноз погоды</Link>
+                <Link to='/store'>Магазин</Link> */}
+
+                <Link to='/neskam'>Кто ты из бравл старс???</Link>
+
             </header>
             {showTitle && (
                 <div>
