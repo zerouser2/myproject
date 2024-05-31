@@ -80,7 +80,6 @@ function NameOfBrawler() {
 
     return (
         <div className='poco'>
-            <img src={image} />
 
             <div className='card'>
                 <h1>Кто ты из Бравл Старс???</h1>
